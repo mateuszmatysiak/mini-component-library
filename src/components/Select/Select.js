@@ -62,10 +62,6 @@ const IconWrapper = styled.div`
   height: var(--size);
   color: ${COLORS.gray700};
   pointer-events: none;
-
-  ${Wrapper}:hover & {
-    color: ${COLORS.black};
-  }
 `;
 
 export default Select;
